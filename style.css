@@ -1,0 +1,50 @@
+body{
+background-color:#0277bd
+}
+.marqueesize{
+    font-size:70px;
+    color:#0091ea;
+    border-style:solid;
+    border-color:rgb(10, 73, 73);
+    border-width:0.11cm;
+    border-radius:2cm;
+}
+.aboutme{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:initial;
+    border-style:solid;
+    background-color:#03a9f4;
+    border-radius:2cm;
+    border-color:rgb(10, 73, 73);
+    margin:2cm;
+    padding:1cm
+}
+img{
+    border-radius:10cm;
+    margin-right:1cm;
+    background-color:#03a9f4;
+}
+.Games{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-style:solid;
+    background-color:#03a9f4;
+    border-radius:2cm;
+    border-color:rgb(10, 73, 73);
+    flex-basis: 100%;
+    margin: 2cm;
+}
+.Eachgame{
+    flex-basis: 33.33333333333333%;
+    margin: .5cm;
+    
+}
+p{
+   font-size:.9cm;
+   margin-left: 3cm;
+   text-decoration: underline;
+   color:white;
+   font-weight: bold;
+}
